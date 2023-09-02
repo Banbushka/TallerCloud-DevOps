@@ -1,5 +1,5 @@
 # Utiliza una imagen base de Python con Flask instalado
-FROM python:3.9-slim
+FROM python:3.9-alpine
 
 # Establece el directorio de trabajo en /app
 WORKDIR /app
