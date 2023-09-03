@@ -14,6 +14,9 @@ Una vez descargadas, nos creamos una carpeta "Prueba" nos metemos en ella, y den
 
 
 
-Ahora ejecutamos el comando "docker build -t tallerCloudDevops:1.0 ."
+Ahora ejecutamos el comando "docker build -t tallerCloudDevops:1.0 .".
 Con esto abremos creado nuestra imagen.
+
+
+
 Por último ejecutamos el comando "docker run -p 5000:5000 tallerCloudDevops:1.0". ¡Y listo ya tendremos nuestra aplicación levantada en un container de docker :)!
